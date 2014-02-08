@@ -1,6 +1,18 @@
-$main-font-color: #111111;
+/*Constants*/
+
+$text-color: #111111;
+$header-color: #666666;
+$body-font: tahoma;
+$header-font: verdana;
 
 body
 {
-color: $main-font-color;
+color: $text-color;
+font-family: $body-font;
+}
+
+h1
+{
+color: $header-color;
+font-family: $header-font;
 }
